@@ -1,5 +1,8 @@
 
 
+
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,7 +10,9 @@ body {
     min-height: 100vh;
     margin: 0;
     padding: 0;
-    
+    background-image: linear-gradient(red, yellow);
+    font-family: 'Overpass', sans-serif;
+        
 }
 img {max-width:100%;} 
 
@@ -26,7 +31,7 @@ ul {
 header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #c7a580;
+    background-color: #a1b384;
     color:#edf5e1;
     align-items: center;
 }
@@ -49,17 +54,20 @@ max-height: 213px;
 align-self: center;
 border-radius: 15px;
 border: #8ee4af solid;
+box-shadow: 10px 10px 5px #1c574b;
 }
 
 
 .column-1 {
-    background-color:#c7a580;
+    background-color:#a1b384;
     align-items: center;
     justify-content: center;
     display: flex ;
     gap: 150px;
     flex: 1 1 100%;
-   
+    padding-bottom:4em;
+    padding-top:4em;
+    flex-wrap: wrap;
 }
 
 
@@ -77,6 +85,7 @@ border: #8ee4af solid;
     border-radius: 15px;
     border: #8ee4af solid;
     color: #1c574b;
+    box-shadow: 10px 10px 5px #1c574b;
 }
 
 
@@ -91,12 +100,18 @@ border: #8ee4af solid;
     align-items: center;
     justify-content: center;
     gap: 30px;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    flex-wrap: wrap;
+    color: #edf5e1;
 }
 
 /* this controls all the herb icons grouped together */
 .all-icons {
     display: flex;
+    flex-wrap: wrap;
     gap: 40px;
+    color: #edf5e1;
 }
 
 /* this is for the size of the individual icons */
@@ -105,6 +120,9 @@ border: #8ee4af solid;
     max-height: 100px;
     border-radius: 10px;
     border: #8ee4af solid;
+    
+    box-shadow: 10px 10px 5px #1c574b;
+   
     background-color: #edf5e1;
 }
 
@@ -134,34 +152,38 @@ border: #8ee4af solid;
 font-size: 24px;
 max-width: 1000px;
 min-width: auto;
+padding-top: 2em;
+font-style: italic;
 }
 
 .column-3-bottom {
     margin-left: 800px;
+    padding-bottom: 2em;
 }
 
 
 
 
 .column-4 {
-    background-color: #edf5e1;
+    background-color: #c7a580;
     flex: 1 1 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 100px
+    
 }
 
 
 .column-4-left {
-    color: #edf5e1;
+    color: #1c574b;
     font-weight: bold;
 }
 
 
 .cta-container {
     display: flex;
-    background-color: #379683;
+    background-color: #edf5e1;;
     padding: 20px 50px 20px 50px;
     margin: 80px;
     border-radius: 10px;
@@ -169,7 +191,8 @@ min-width: auto;
     justify-content: center;
     gap: 10em;
     border: #ac8e6d solid;
-
+    box-shadow: 10px 10px 5px #1c574b;
+    
 }
 
 .button-1 {
@@ -208,5 +231,11 @@ min-width: auto;
 
 .footer {
 
-    background-color: #379683;;
+    background-color: #a1b384;
+    color: #edf5e1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
 }
