@@ -26,7 +26,9 @@ ul {
 header {
     display: flex;
     justify-content: space-evenly;
-    background-color: #379683;
+    background-color: #c7a580;
+    color:#edf5e1;
+    align-items: center;
 }
 
 
@@ -42,18 +44,20 @@ header {
 .herb-row {
 width: auto;
 height: auto;
-max-width: 580px;
-max-height: 370px;
+max-width: 320px;
+max-height: 213px;
 align-self: center;
+border-radius: 15px;
+border: #8ee4af solid;
 }
 
 
 .column-1 {
-    background-color:#379683;;
+    background-color:#c7a580;
     align-items: center;
     justify-content: center;
     display: flex ;
-    gap: 100px;
+    gap: 150px;
     flex: 1 1 100%;
    
 }
@@ -64,7 +68,15 @@ align-self: center;
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    background-color: #edf5e1;
     width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 15px;
+    border: #8ee4af solid;
+    color: #1c574b;
 }
 
 
@@ -72,7 +84,7 @@ align-self: center;
 
 
 .column-2 {
-    background-color:#edf5e1;
+    background-color:#ac8e6d;
     flex: 1 1 100%;
     display: flex;
     flex-direction: column;
@@ -92,7 +104,8 @@ align-self: center;
     max-width: 100px;
     max-height: 100px;
     border-radius: 10px;
-    border: #379683 solid;
+    border: #8ee4af solid;
+    background-color: #edf5e1;
 }
 
 /* groups together the text with the icon */
@@ -108,12 +121,13 @@ align-self: center;
 
 
 .column-3 {
-    background-color:#8ee4af;
+    background-color:#379683;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    color: #edf5e1;
 }
 
 .column-3-top {
@@ -138,25 +152,56 @@ min-width: auto;
     gap: 100px
 }
 
-.button-1 {
-    background-color: #05386b;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+
+.column-4-left {
     color: #edf5e1;
-    border-color: #379683;
-    border-radius: 10px;
+    font-weight: bold;
 }
 
-.button-2 {
-    background-color: #05386b;
+
+.cta-container {
+    display: flex;
+    background-color: #379683;
+    padding: 20px 50px 20px 50px;
+    margin: 80px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    border: #ac8e6d solid;
+
+}
+
+.button-1 {
+    background-color: #8ee4af;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
+    color: #1c574b;
+    border-color: #379683;
     border-radius: 10px;
-    color: #edf5e1
+    font-size: 14px;
+    font-weight: bold;
+    
+    
+
+}
+
+
+.button-2 {
+    background-color: #8ee4af;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #1c574b;
+    border-color: #379683;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    
+
 }
 
 
