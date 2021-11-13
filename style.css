@@ -26,9 +26,8 @@ ul {
 header {
     display: flex;
     justify-content: space-evenly;
-    background-color:rgba(64, 65, 60, 0.973)
+    background-color: #379683;
 }
-
 
 
 .nav-list   {
@@ -50,7 +49,7 @@ align-self: center;
 
 
 .column-1 {
-    background-color:rgba(64, 65, 60, 0.973) ;
+    background-color:#379683;;
     align-items: center;
     justify-content: center;
     display: flex ;
@@ -73,7 +72,7 @@ align-self: center;
 
 
 .column-2 {
-    background-color:#ffffff ;
+    background-color:#edf5e1;
     flex: 1 1 100%;
     display: flex;
     flex-direction: column;
@@ -88,12 +87,12 @@ align-self: center;
     gap: 40px;
 }
 
-/* this is for the size of the indivutual icons */
+/* this is for the size of the individual icons */
 .icons {
     max-width: 100px;
     max-height: 100px;
     border-radius: 10px;
-    border: rgba(64, 65, 60, 0.973) solid;
+    border: #379683 solid;
 }
 
 /* groups together the text with the icon */
@@ -109,20 +108,60 @@ align-self: center;
 
 
 .column-3 {
-    background-color:rgba(111, 112, 106, 0.856) ;
-    flex: 1 1 100%;
+    background-color:#8ee4af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
+
+.column-3-top {
+font-size: 24px;
+max-width: 1000px;
+min-width: auto;
+}
+
+.column-3-bottom {
+    margin-left: 800px;
+}
+
+
+
 
 .column-4 {
-    background-color: #e5e7eb;
+    background-color: #edf5e1;
     flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px
 }
 
+.button-1 {
+    background-color: #05386b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #edf5e1;
+    border-color: #379683;
+    border-radius: 10px;
+}
 
+.button-2 {
+    background-color: #05386b;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-radius: 10px;
+    color: #edf5e1
+}
 
 
 
 .footer {
 
-    background-color: rgba(64, 65, 60, 0.973);
+    background-color: #379683;;
 }
