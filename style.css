@@ -1,0 +1,128 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    
+}
+img {max-width:100%;} 
+
+ul {
+    list-style-type: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+
+
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color:rgba(64, 65, 60, 0.973)
+}
+
+
+
+.nav-list   {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+.herb-row {
+width: auto;
+height: auto;
+max-width: 580px;
+max-height: 370px;
+align-self: center;
+}
+
+
+.column-1 {
+    background-color:rgba(64, 65, 60, 0.973) ;
+    align-items: center;
+    justify-content: center;
+    display: flex ;
+    gap: 100px;
+    flex: 1 1 100%;
+   
+}
+
+
+.column-1 .left {
+    display: flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 400px;
+}
+
+
+
+
+
+.column-2 {
+    background-color:#ffffff ;
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* this controls all the herb icons grouped together */
+.all-icons {
+    display: flex;
+    gap: 40px;
+}
+
+/* this is for the size of the indivutual icons */
+.icons {
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 10px;
+    border: rgba(64, 65, 60, 0.973) solid;
+}
+
+/* groups together the text with the icon */
+
+.herb-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+.column-3 {
+    background-color:rgba(111, 112, 106, 0.856) ;
+    flex: 1 1 100%;
+}
+
+.column-4 {
+    background-color: #e5e7eb;
+    flex: 1 1 100%;
+}
+
+
+
+
+
+.footer {
+
+    background-color: rgba(64, 65, 60, 0.973);
+}
